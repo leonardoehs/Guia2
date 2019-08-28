@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Guia2</string>
+    <string name="enunciado1">Ingrese sus datos:</string>
+    <string name="enunciado2">Ingrese su fruta preferida</string>
+    <string name="enunciado3">Ingrese su animal preferido</string>
+    <string name="enunciado4">Ingrese su lenguaje preferido</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="iniciar">Iniciar Sesion</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="fruta">Fruta</string>
+    <string name="animal">Animal</string>
+    <string name="lenguaje">Lenguaje</string>
+    <string name="procesar">Procesar</string>
+</resources>
