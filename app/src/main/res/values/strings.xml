@@ -7,8 +7,8 @@
     <string name="contraseña">Contraseña</string>
     <string name="iniciar">Iniciar Sesion</string>
     <string name="correo">Correo Electronico</string>
-    <string name="fruta">Fruta</string>
-    <string name="animal">Animal</string>
-    <string name="lenguaje">Lenguaje</string>
+    <string name="fruta">Ejemplo: Naranja</string>
+    <string name="animal">Ejemplo: Leon</string>
+    <string name="lenguaje">Ejemplo: C#</string>
     <string name="procesar">Procesar</string>
 </resources>

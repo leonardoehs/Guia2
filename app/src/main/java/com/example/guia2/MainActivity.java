@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnLongClickListener {
     EditText edtContraseña, edtCorreo;
-    Button btnIniciarSesion;
+    Button btnIniciarSesion,btnDatos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +22,10 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
         }
         edtCorreo = findViewById(R.id.edtCorreo);
         edtContraseña = findViewById(R.id.edtContraseña);
+        btnDatos = findViewById(R.id.btnDatos);
         btnIniciarSesion = findViewById(R.id.btnIniciarSesion);
 
+        btnDatos.setOnLongClickListener(this);
         btnIniciarSesion.setOnLongClickListener(this);
     }
 
@@ -37,12 +39,16 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
                     if (edtContraseña.getText().toString().isEmpty()) {
                         Toast.makeText(this, "¡Campo contraseña vacia!", Toast.LENGTH_LONG).show();
                     } else {
-                        Intent in = new Intent(this, Activity2.class);
+                        Intent in = new Intent(this, ActivitySecundaria.class);
                         startActivity(in);
                     }
                 }
             }
             break;
+            case R.id.btnDatos:{
+                Intent datos = new Intent (this,datos.class);
+                startActivity(datos);
+            }
         }
         return false;
     }

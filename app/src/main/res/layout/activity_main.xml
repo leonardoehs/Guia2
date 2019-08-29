@@ -13,6 +13,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
         android:text="@string/enunciado1"
+        android:textColor="@android:color/black"
         android:textSize="25sp" />
     <EditText
         android:inputType="textEmailAddress"
@@ -47,5 +48,26 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="(Mantener precionado)"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btnDatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Mis datos"/>
+
     </LinearLayout>
 </LinearLayout>
